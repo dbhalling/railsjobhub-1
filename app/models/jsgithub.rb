@@ -1,0 +1,2 @@
+class Jsgithub < ApplicationRecord
+end

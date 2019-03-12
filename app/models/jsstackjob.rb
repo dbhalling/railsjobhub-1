@@ -1,0 +1,2 @@
+class Jsstackjob < ApplicationRecord
+end

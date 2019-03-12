@@ -1,0 +1,2 @@
+class Jsindeed < ApplicationRecord
+end

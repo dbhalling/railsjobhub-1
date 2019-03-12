@@ -15,3 +15,11 @@ github skills?
 URL shortners for twitter rake tasks
 
 We need to uncommment the "client update" when we push things up to Heroku
+
+
+
+JsStackJob may need to be limited - I got 1000 entries
+
+Do we need to update the seeds database
+
+cybercoders https://www.engineyard.com/blog/ruby-ssl-error-certificate-verify-failed

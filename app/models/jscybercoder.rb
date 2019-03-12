@@ -1,0 +1,2 @@
+class Jscybercoder < ApplicationRecord
+end

@@ -1,0 +1,2 @@
+class Jsremotelyawesome < ApplicationRecord
+end

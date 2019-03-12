@@ -1,0 +1,2 @@
+class Jscareerbuilder < ApplicationRecord
+end

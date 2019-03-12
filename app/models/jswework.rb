@@ -1,0 +1,2 @@
+class Jswework < ApplicationRecord
+end
