@@ -2,6 +2,9 @@ namespace :jscybercoders do
   task js: :environment do
     require 'mechanize'
 
+    I_KNOW_THAT_OPENSSL_VERIFY_PEER_EQUALS_VERIFY_NONE_IS_WRONG = nil
+    OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
+
     a = Mechanize.new
     a.user_agent_alias = 'Mac Safari 4'
     page = a.get('https://www.cybercoders.com/search/?searchterms=javascript&searchlocation=&newsearch=true&originalsearch=true&sorttype=date')
